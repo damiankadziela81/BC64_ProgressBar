@@ -13,7 +13,7 @@ public class ProgressBar {
         bar.setStringPainted(true); //adds % to progress bar
         bar.setFont(new Font("Arial",Font.BOLD,30));
         bar.setForeground(Color.RED);
-        bar.setBackground(new Color(0xffa070));
+        bar.setBackground(new Color(100,0,0));
 
 
         frame.add(bar);
@@ -35,5 +35,6 @@ public class ProgressBar {
 
         }
         bar.setString("BOOM!");
+        bar.setBackground(new Color(255,255,0));
     }
 }
